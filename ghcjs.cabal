@@ -141,7 +141,7 @@ Library
                    mtl,
                    ghc-paths,
                    template-haskell,
-                   syb            >= 0.6      && < 0.7,
+                   syb            >= 0.6      && < 0.8,
                    bytestring     >= 0.10     && < 0.11,
                    attoparsec     >= 0.12     && < 0.14,
                    aeson          >= 1.0      && < 1.3,
@@ -154,7 +154,7 @@ Library
                    transformers,
                    split          >= 0.2      && < 0.3,
                    deepseq,
-                   vector         >= 0.10     && < 0.12,
+                   vector         >= 0.10     && < 0.13,
                    data-default   >= 0.7      && < 0.8,
                    array          >= 0.4      && < 0.6,
                    binary         >= 0.7      && < 0.9,
@@ -172,7 +172,7 @@ Library
                    safe                       >= 0.3  && < 0.4,
                    parsec                     >= 3.1  && < 3.2,
                    haskell-src-exts           >= 1.16 && < 1.19,
-                   haskell-src-meta           >= 0.6.0.3  && < 0.8
+                   haskell-src-meta           >= 0.6.0.3  && < 0.9
     exposed: True
     buildable: True
     hs-source-dirs: src lib/ghcjs-th
