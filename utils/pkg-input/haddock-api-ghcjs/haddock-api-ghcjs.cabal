@@ -43,7 +43,7 @@ library
   build-depends: base            ^>= 4.11.0
                , Cabal           ^>= 2.2.0
                , ghc-api-ghcjs   ^>= 8.4
-               , ghc-paths       ^>= 0.1.0.9
+               , ghc-paths       ^>= 0.1.0.10
                , haddock-library-ghcjs ^>= 1.6.0
                , xhtml           ^>= 3000.2.2
 

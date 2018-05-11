@@ -19,19 +19,19 @@ cTargetPlatformString = TargetPlatform_NAME
 cProjectName          :: String
 cProjectName          = "The Glorious Glasgow Haskell Compilation System"
 cProjectGitCommitId   :: String
-cProjectGitCommitId   = "0000000000000000000000000000000000000000"
+cProjectGitCommitId   = "cfd53e4cafeb3e3b413d0347f61c1509a9d33e4d"
 cProjectVersion       :: String
-cProjectVersion       = "8.4.2.20180420"
+cProjectVersion       = "8.4.2.20180505"
 cProjectVersionInt    :: String
 cProjectVersionInt    = "804"
 cProjectPatchLevel    :: String
-cProjectPatchLevel    = "220180420"
+cProjectPatchLevel    = "220180505"
 cProjectPatchLevel1   :: String
 cProjectPatchLevel1   = "2"
 cProjectPatchLevel2   :: String
-cProjectPatchLevel2   = "20180420"
+cProjectPatchLevel2   = "20180505"
 cBooterVersion        :: String
-cBooterVersion        = "8.4.1.20180414"
+cBooterVersion        = "8.4.2"
 cStage                :: String
 cStage                = show (STAGE :: Int)
 cIntegerLibrary       :: String
@@ -47,7 +47,7 @@ cGhcWithNativeCodeGen = "YES"
 cGhcWithSMP           :: String
 cGhcWithSMP           = "YES"
 cGhcRTSWays           :: String
-cGhcRTSWays           = "l debug thr thr_debug thr_l thr_p dyn debug_dyn thr_dyn thr_debug_dyn l_dyn thr_l_dyn"
+cGhcRTSWays           = "l debug thr thr_debug thr_l  dyn debug_dyn thr_dyn thr_debug_dyn l_dyn thr_l_dyn"
 cGhcRtsWithLibdw      :: Bool
 cGhcRtsWithLibdw      = False
 cGhcEnableTablesNextToCode :: String
